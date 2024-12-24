@@ -5,6 +5,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import BookShowcase from './components/BookShowcase';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <BookShowcase />
       <Portfolio />
       <About />
+      <Contact />
     </main>
   );
 }
