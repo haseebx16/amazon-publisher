@@ -167,9 +167,9 @@ export default function About() {
       </div>
     </section>
     <About/>
-    <Contact/>
+    {/* <Contact/>
     <QuoteBar/>
-    <Footer/>
+    <Footer/> */}
     </>
   );
 }
