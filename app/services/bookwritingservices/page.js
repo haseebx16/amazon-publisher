@@ -81,8 +81,20 @@ export default function BookWritingServices() {
         </section>
 
         {/* Storytelling Section */}
-        <section className="bg-gray-900 py-20">
-          <div className="container mx-auto px-4">
+        <section className="bg-gray-900 py-20 relative overflow-hidden">
+          <div 
+            className="absolute inset-0 opacity-10"
+            style={{
+              backgroundImage: `repeating-linear-gradient(
+                45deg,
+                #ffffff,
+                #ffffff 2px,
+                transparent 2px,
+                transparent 12px
+              )`
+            }}
+          ></div>
+          <div className="container mx-auto px-4 relative z-10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
               <div className="lg:w-3/4">
                 <h2 className="font-oswald text-4xl md:text-5xl text-white font-bold leading-tight mb-8">
