@@ -6,6 +6,22 @@ import { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+  const services = [
+    'Book Publishing Services',
+    'Book Writing Services',
+    'Book Marketing Services',
+    'Book Editing Services',
+    'Book Cover Design',
+    'Audiobook Production',
+    'eBook Conversion',
+    'Print-on-Demand Services',
+    'Book Distribution',
+    'Author Platform Building',
+    'Book Promotion',
+    'Literary Agent Services'
+  ];
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -21,22 +37,6 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden ml-auto">
-            <button 
-              className="p-2"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                {isMenuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
-          </div>
-
           {/* Desktop Navigation - Center */}
           <div className="hidden md:flex justify-center w-2/4">
             <div className="flex space-x-6">
@@ -46,9 +46,35 @@ export default function Header() {
               <Link href="/about" className="nav-link">
                 About Us
               </Link>
-              <Link href="/services" className="nav-link">
-                Services
-              </Link>
+              <div className="relative group">
+                <button 
+                  className="nav-link flex items-center"
+                  onMouseEnter={() => setIsServicesOpen(true)}
+                  onMouseLeave={() => setIsServicesOpen(false)}
+                >
+                  Services
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {isServicesOpen && (
+                  <div 
+                    className="absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg py-2 w-64 z-50"
+                    onMouseEnter={() => setIsServicesOpen(true)}
+                    onMouseLeave={() => setIsServicesOpen(false)}
+                  >
+                    {services.map((service, index) => (
+                      <Link 
+                        key={index} 
+                        href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-500"
+                      >
+                        {service}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
               <Link href="/testimonials" className="nav-link">
                 Testimonials
               </Link>
@@ -67,6 +93,22 @@ export default function Header() {
               +1 713 678 0086
             </a>
           </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden ml-auto">
+            <button 
+              className="p-2"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -78,9 +120,30 @@ export default function Header() {
             <Link href="/about" className="nav-link">
               About Us
             </Link>
-            <Link href="/services" className="nav-link">
-              Services
-            </Link>
+            <div>
+              <button 
+                onClick={() => setIsServicesOpen(!isServicesOpen)}
+                className="nav-link w-full text-left flex items-center justify-between"
+              >
+                Services
+                <svg className={`w-4 h-4 transform ${isServicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {isServicesOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  {services.map((service, index) => (
+                    <Link 
+                      key={index}
+                      href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
+                      className="block py-1 text-sm text-gray-600 hover:text-orange-500"
+                    >
+                      {service}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
             <Link href="/testimonials" className="nav-link">
               Testimonials
             </Link>
