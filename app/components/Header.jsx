@@ -14,13 +14,13 @@ export default function Header() {
     'Book Marketing Services',
     'Book Editing And Proofreading Services',
     'Book Cover Design',
-    'Audiobook Production',
-    'eBook Conversion',
-    'Print-on-Demand Services',
-    'Book Distribution',
-    'Author Platform Building',
-    'Book Promotion',
-    'Literary Agent Services'
+    'Book Formatting',
+    'Book Publication',
+    'Book Illustration',
+    'Book Printing',
+    'Author Website',
+    'Audio Book',
+    'Video Book'
   ];
 
   return (

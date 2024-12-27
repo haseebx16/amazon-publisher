@@ -29,10 +29,10 @@ export default function BookWritingServices() {
               {/* Text Content */}
               <div className="text-white mt-16 md:mt-0">
                 <h2 className="font-oswald text-2xl text-center md:text-4xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
-                  Ghostwriting Services
+                Refine Your Manuscript to Perfection with Our Expert Editing
                 </h2>
                 <p className="text-sm text-center text-gray-600 md:text-lg mb-8">
-                Bringing hidden stories to life through the skilled artistry of ghostwriting.
+                Transform your manuscript into a polished, standout book with our specialized editing and proofreading services.
                 </p>
               </div>
             </div>
@@ -46,25 +46,22 @@ export default function BookWritingServices() {
               {/* Left Column - Content */}
               <div className="space-y-8">
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Ghostwriting Services
-                Infuse your creative ideas with life
+                The Art of Precision Editing
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                We transform your imaginative concepts into compelling stories with ease. Our skilled team of writers, experienced in various genres, works closely with you to capture the essence of your vision. Whether you're a new writer or a seasoned author seeking a fresh perspective, our ghostwriting services are tailored to match your unique voice and style. Passionate about the art of storytelling, we ensure each page resonates with authenticity and captivates your readers from start to finish.
+                Editing goes beyond mere grammar checks; it’s about elevating your manuscript into a literary masterpiece. Our skilled editors meticulously refine your work, addressing inconsistencies, enhancing flow, and ensuring a compelling narrative. They pay close attention to every detail, from character development to plot coherence. With a keen eye for language and a passion for storytelling, our editors unlock the full potential of your story.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Absolute Confidentiality
-                Your Story, Your Privacy, Our Commitment
+                Tailored Editing and Proofreading Solutions
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                At Amazon Classic Publishers Experts, we understand that trust is crucial in the creative process. Our Ghostwriting Services are built on a foundation of unwavering confidentiality. We ensure that your story, ideas, and personal information are kept secure and private. We value the trust you place in us and are committed to handling your narrative with the utmost discretion, allowing you to share your story with complete peace of mind.
+                Discover the ideal solution for your book with our range of editing and proofreading packages, tailored to fit your specific needs and budget. Whether you require a thorough structural edit, a final proofread, or something in between, our packages offer the flexibility to meet your preferences. For unique projects, we also provide custom packages. Explore our offerings to find the perfect match for your manuscript.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Mastering Collaborative Storytelling
-                Crafting Narratives Together
+                Mastering the Art of Editing for Literary Excellence
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                At Amazon Classic Publishers Experts, collaboration is the heartbeat of our ghostwriting process. We are committed to creating stories that resonate with your unique voice. Our writers work closely with you to fine-tune every plot twist, character development, and narrative detail to align with your vision. More than just writing a book, we strive to create an engaging experience that draws readers into your world. By choosing us, you transform your story into a collaborative masterpiece, reflecting the true essence of partnership in storytelling.
+                Editing is akin to refining a rough diamond to reveal its brilliance, and at Amazon Classic Publishers Experts, our approach is a meticulous craft. We start with a thorough structural edit, carefully aligning your book's plot, character development, and pacing. Following that, our line editing enhances your prose for a smooth and engaging flow. Finally, our proofreading specialists meticulously review every page, correcting errors to ensure your book is impeccably prepared for publication. We are committed to preserving your unique voice while elevating your work to shine brightly. Our dedication to literary excellence is steadfast, and we work closely with you, providing insightful feedback and recommendations to unlock your book's full potential. Your success is our priority, and together, we'll create a literary masterpiece that captivates readers and stands out in the publishing arena.
                 </p>
               </div>
 
@@ -72,7 +69,7 @@ export default function BookWritingServices() {
               <div className="relative aspect-[3/4] max-h-[600px] w-full flex justify-center">
                 <div className="relative h-full w-[70%]">
                   <Image
-                    src="/3.jpg"
+                    src="/booknia_b.jpg"
                     alt="Book Writing Services"
                     fill
                     className="object-contain"
@@ -101,9 +98,9 @@ export default function BookWritingServices() {
           <div className="container mx-auto px-4 relative z-10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
               <div className="lg:w-3/4">
-                <h2 className="font-oswald max-w-xl text-4xl md:text-5xl text-white font-bold leading-tight mb-8">
-                Unlocking Our Potential
-                Elevating for Greater Impact
+                <h2 className="font-oswald max-w-3xl text-4xl md:text-5xl text-white font-bold leading-tight mb-8">
+                Our Book Writing service is your portal to weaving captivating narratives that captivate readers
+and leave a lasting impact.
                 </h2>
               </div>
               <div className="lg:w-1/4 flex justify-center">
@@ -125,7 +122,7 @@ export default function BookWritingServices() {
               <div className="relative aspect-[3/4] max-h-[600px] w-full">
                 <div className="relative h-full w-[90%]">
                   <Image
-                    src="/home-book.jpg"
+                    src="/book-editing.jpeg"
                     alt="Tom Clancy's Enemy Contact Book Cover"
                     fill
                     className="object-contain"
@@ -139,11 +136,10 @@ export default function BookWritingServices() {
               <div className="space-y-8">
                 <div>
                   <h2 className="text-4xl md:text-5xl font-oswald text-orange-500 mb-6">
-                  Creative Excellence
-            From Manuscript to Bestseller.
+                  Impeccable and Captivating Content.
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  At Amazon Classic Publishers Experts, we specialize in turning your ideas into literary triumphs. Our Ghostwriting Services accompany you through every stage of the process, from the first draft to reaching bestseller acclaim. Our dedicated team ensures that your story captivates and connects with readers worldwide. With meticulous attention to detail and a deep passion for storytelling, we transform your concepts into lasting literary achievements.
+                  We recognize that readers have high standards, and even minor errors can interrupt the flow of your narrative. Our team of proofreading experts meticulously reviews your manuscript, correcting typos, grammatical mistakes, and formatting issues. Our goal is to present your work with flawless precision, allowing readers to fully engage with your story without any interruptions.
                   </p>
                 </div>
 
