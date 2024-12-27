@@ -56,38 +56,35 @@ export default function page() {
       <main className="relative w-full overflow-x-hidden">
         <section className="relative h-screen">
           {/* Background Image with Overlay */}
-          <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-black/60 z-10"></div>
-            <Image
-              src="/hero-books.jpg"
-              alt="Background"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-              priority
-              className="z-0"
-            />
-          </div>
+          <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-black/60 z-10"></div>
+        <div 
+          className="w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/hero-books.jpg')`,
+          }}
+        ></div>
+      </div>
 
           {/* Content */}
           <div className="container mx-auto px-4 py-20 relative z-20 h-full flex items-center">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
               {/* Text Content */}
-              <div className="text-white max-w-2xl">
+              <div className="text-white mt-16 md:mt-0 max-w-2xl">
                 <h2 className="font-oswald text-lg md:text-xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
                   WELCOME TO Amazon Classic Publishers EXPERTS
                 </h2>
-                <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
+                <h1 className="font-oswald text-2xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
                   NAVIGATING DIGITAL PUBLISHING CHALLENGES WITH A RELIABLE ALLY
                 </h1>
-                <p className="text-lg mb-8">At Amazon Classic Publishers Experts, we stand by you every step of the way, offering an extensive range of services to bring your publishing goals to life. Founded on a powerful yet simple mission, we aim to empower both authors and publishers as they navigate the ever-evolving world of publishing.</p>
+                <p className="text-sm md:text-lg mb-8">At Amazon Classic Publishers Experts, we stand by you every step of the way, offering an extensive range of services to bring your publishing goals to life. Founded on a powerful yet simple mission, we aim to empower both authors and publishers as they navigate the ever-evolving world of publishing.</p>
                 <button className="btn-primary text-lg uppercase tracking-wider">
                   DISCOVER MORE
                 </button>
               </div>
 
               {/* Contact Form */}
-              <div className="bg-gray-800/80 p-8 rounded-lg w-full max-w-md">
+              <div className="bg-gray-800/80 p-8  rounded-lg w-full max-w-md">
                 <h3 className="font-oswald text-2xl text-white font-bold mb-6 text-center">Let's Get Started</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <input
