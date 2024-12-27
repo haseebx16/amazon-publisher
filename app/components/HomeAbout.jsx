@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 
-export default function About() {
+export default function HomeAbout() {
   const [activeTab, setActiveTab] = useState('mission');
 
   const features = [
