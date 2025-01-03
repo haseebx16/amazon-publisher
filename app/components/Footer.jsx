@@ -4,19 +4,19 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   const exploreLinks = [
-    { name: 'Book Writing Services', href: '#' },
-    { name: 'Ghost Book Writing', href: '#' },
-    { name: 'Book Editing & Proofreading', href: '#' },
-    { name: 'Book Cover Design', href: '#' },
-    { name: 'Book Illustrations', href: '#' },
-    { name: 'Book Marketing', href: '#' },
+    { name: 'Book Writing Services', href: 'bookwritingservices' },
+    { name: 'Ghost Book Writing', href: 'ghostwritingservices' },
+    { name: 'Book Editing & Proofreading', href: 'bookeditingandproofreadingservices' },
+    { name: 'Book Cover Design', href: 'bookcoverdesign' },
+    { name: 'Book Illustrations', href: 'bookillustration' },
+    { name: 'Book Marketing', href: 'bookmarketing' },
   ];
 
   const quickLinks = [
-    { name: 'About Us', href: '#' },
-    { name: 'Contact Us', href: '#' },
-    { name: 'Portfolio', href: '#' },
-    { name: 'Testimonials', href: '#' },
+    { name: 'About Us', href: 'about' },
+    { name: 'Contact Us', href: 'contact' },
+    { name: 'Portfolio', href: 'portfolio' },
+    { name: 'Testimonials', href: 'testimonials' },
     { name: 'Privacy Policy', href: '#' },
     { name: 'Terms & Conditions', href: '#' },
   ];
