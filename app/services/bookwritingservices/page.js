@@ -49,7 +49,7 @@ export default function BookWritingServices() {
                   WHAT DEFINES US
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                  At Amazon Classic Publishers Experts, we are the go-to choose for both emerging and established authors
+                  At Amazon Legacy Press Experts, we are the go-to choose for both emerging and established authors
                   seeking exceptional book-writing services. Our skilled team of writers and ghostwriters excels in the art of
                   storytelling, dedicated to transforming your ideas into compelling manuscripts. What sets us apart is our
                   commitment to personalized service, allowing you to choose the level of involvement that best suits your
@@ -59,7 +59,7 @@ export default function BookWritingServices() {
                   We pride ourselves on delivering high-quality work within agreed timelines, ensuring your manuscript is not
                   only polished but also an engaging piece of literature. Your ideas and outcomes are treated with utmost
                   confidentiality, giving you full ownership of your book. With a proven process and a track record of successful
-                  book projects, Amazon Classic Publishers Experts is your trusted partner in bringing your vision to life and
+                  book projects, Amazon Legacy Press Experts is your trusted partner in bringing your vision to life and
                   crafting a published masterpiece.
                 </p>
               </div>

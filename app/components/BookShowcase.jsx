@@ -33,7 +33,7 @@ export default function BookShowcase() {
                 ELEVATE YOUR BOOKS AND AUTHOR PRESENCE WITH OUR EXPERTISE
               </h2>
               <p className="text-gray-700 mb-8">
-                AMAZON CLASSIC PUBLISHERS EXPERTS IS COMMITTED TO HELPING AUTHORS ACHIEVE MAXIMUM 
+                Amazon Legacy Press EXPERTS IS COMMITTED TO HELPING AUTHORS ACHIEVE MAXIMUM 
                 RETURNS ON THEIR INVESTMENTS. AS A LEADING PROFESSIONAL BOOK PUBLISHING AND MARKETING 
                 AGENCY, WE SPECIALIZE IN OPTIMIZING THE MOST EFFECTIVE MARKETING CHANNELS TO PROMOTE YOUR 
                 BOOK. WHETHER THROUGH TRADITIONAL OR SELF-PUBLISHING ROUTES, OUR COMPREHENSIVE PROGRAM 
@@ -73,7 +73,7 @@ export default function BookShowcase() {
                 the most creative minds, providing exceptional support to bring your 
                 vision to fruition. With over ten years of experience in ghostwriting, 
                 we've been dedicated to helping clients meet their writing aspirations. At 
-                Amazon Classic Publishers Experts, our mission is to deliver writing 
+                Amazon Legacy Press Experts, our mission is to deliver writing 
                 assistance that leaves a lasting mark in the literary world.
               </p>
             </div>

@@ -57,14 +57,14 @@ export default function BookWritingServices() {
                 Your Story, Your Privacy, Our Commitment
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                At Amazon Classic Publishers Experts, we understand that trust is crucial in the creative process. Our Ghostwriting Services are built on a foundation of unwavering confidentiality. We ensure that your story, ideas, and personal information are kept secure and private. We value the trust you place in us and are committed to handling your narrative with the utmost discretion, allowing you to share your story with complete peace of mind.
+                At Amazon Legacy Press Experts, we understand that trust is crucial in the creative process. Our Ghostwriting Services are built on a foundation of unwavering confidentiality. We ensure that your story, ideas, and personal information are kept secure and private. We value the trust you place in us and are committed to handling your narrative with the utmost discretion, allowing you to share your story with complete peace of mind.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Mastering Collaborative Storytelling
                 Crafting Narratives Together
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                At Amazon Classic Publishers Experts, collaboration is the heartbeat of our ghostwriting process. We are committed to creating stories that resonate with your unique voice. Our writers work closely with you to fine-tune every plot twist, character development, and narrative detail to align with your vision. More than just writing a book, we strive to create an engaging experience that draws readers into your world. By choosing us, you transform your story into a collaborative masterpiece, reflecting the true essence of partnership in storytelling.
+                At Amazon Legacy Press Experts, collaboration is the heartbeat of our ghostwriting process. We are committed to creating stories that resonate with your unique voice. Our writers work closely with you to fine-tune every plot twist, character development, and narrative detail to align with your vision. More than just writing a book, we strive to create an engaging experience that draws readers into your world. By choosing us, you transform your story into a collaborative masterpiece, reflecting the true essence of partnership in storytelling.
                 </p>
               </div>
 
@@ -143,7 +143,7 @@ export default function BookWritingServices() {
             From Manuscript to Bestseller.
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  At Amazon Classic Publishers Experts, we specialize in turning your ideas into literary triumphs. Our Ghostwriting Services accompany you through every stage of the process, from the first draft to reaching bestseller acclaim. Our dedicated team ensures that your story captivates and connects with readers worldwide. With meticulous attention to detail and a deep passion for storytelling, we transform your concepts into lasting literary achievements.
+                  At Amazon Legacy Press Experts, we specialize in turning your ideas into literary triumphs. Our Ghostwriting Services accompany you through every stage of the process, from the first draft to reaching bestseller acclaim. Our dedicated team ensures that your story captivates and connects with readers worldwide. With meticulous attention to detail and a deep passion for storytelling, we transform your concepts into lasting literary achievements.
                   </p>
                 </div>
 

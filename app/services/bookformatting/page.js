@@ -55,13 +55,13 @@ export default function BookWritingServices() {
                 Our Expert Book Formatting Solutions
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Different genres demand unique formatting approaches, and at Amazon Classic Publishers Experts, we understand the importance of tailoring layout and design to your book’s specific genre. Whether you are working on a novel, a scientific manuscript, or a children's book, our team has the expertise to address the specific needs of each genre.
+                Different genres demand unique formatting approaches, and at Amazon Legacy Press Experts, we understand the importance of tailoring layout and design to your book’s specific genre. Whether you are working on a novel, a scientific manuscript, or a children's book, our team has the expertise to address the specific needs of each genre.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Efficient Formatting for Timely Delivery
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Our efficient formatting process is crafted to save you time and deliver your formatted manuscript quickly. At Amazon Classic Publishers Experts, we manage all the technical aspects, so you can concentrate on your creative work. We maintain clear and straightforward communication, collaborating closely with you to achieve your preferred formatting style while adhering to industry standards. You will benefit from our commitment to efficiency and our focus on meeting your publication deadlines.
+                Our efficient formatting process is crafted to save you time and deliver your formatted manuscript quickly. At Amazon Legacy Press Experts, we manage all the technical aspects, so you can concentrate on your creative work. We maintain clear and straightforward communication, collaborating closely with you to achieve your preferred formatting style while adhering to industry standards. You will benefit from our commitment to efficiency and our focus on meeting your publication deadlines.
                 </p>
               </div>
 
@@ -139,7 +139,7 @@ and leave a lasting impact.
                   Enhancing the Reading Experience.
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Effective formatting is essential for creating an engaging reading experience. When readers dive into your book, they should encounter an inviting layout that encourages them to continue turning the pages. Our book formatting services are designed to elevate this experience, whether in print or digital formats. By ensuring consistency and professionalism in every aspect, from headings to footnotes, we enrich the overall enjoyment of your work. At Amazon Classic Publishers Experts, we don’t just format books—we craft memorable literary journeys.
+                  Effective formatting is essential for creating an engaging reading experience. When readers dive into your book, they should encounter an inviting layout that encourages them to continue turning the pages. Our book formatting services are designed to elevate this experience, whether in print or digital formats. By ensuring consistency and professionalism in every aspect, from headings to footnotes, we enrich the overall enjoyment of your work. At Amazon Legacy Press Experts, we don’t just format books—we craft memorable literary journeys.
                   </p>
                 </div>
 

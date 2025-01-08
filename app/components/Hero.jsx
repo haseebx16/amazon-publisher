@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Text Content */}
           <div className="text-white max-w-2xl">
             <h2 className="font-oswald text-lg md:text-xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
-              AMAZON CLASSIC PUBLISHERS EXPERTS - CRAFTING BESTSELLING MASTERPIECES FROM YOUR STORIES
+              Amazon Legacy Press EXPERTS - CRAFTING BESTSELLING MASTERPIECES FROM YOUR STORIES
             </h2>
             <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               YOUR PATHWAY TO TURNING LITERARY DREAMS INTO BESTSELLING SUCCESS

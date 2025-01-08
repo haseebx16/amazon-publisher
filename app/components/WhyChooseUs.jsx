@@ -66,14 +66,14 @@ export default function WhyChooseUs() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl font-oswald mb-4 text-white uppercase">
-            FROM DREAMS TO SUCCESS: AMAZON CLASSIC PUBLISHERS EXPERTS ELEVATE AUTHORS
+            FROM DREAMS TO SUCCESS: Amazon Legacy Press EXPERTS ELEVATE AUTHORS
           </h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-oswald font-bold mb-8 text-orange-500">
             THE PREMIER CHOICE FOR UNMATCHED PUBLISHING SERVICES
             <span className="text-white"> – WHY CHOOSE US?</span>
           </h3>
           <p className="text-gray-400 max-w-4xl mx-auto text-lg leading-relaxed">
-            FOR MORE THAN EIGHT YEARS, AMAZON CLASSIC PUBLISHERS EXPERTS HAVE BEEN AT THE FOREFRONT OF THE PUBLISHING INDUSTRY,
+            FOR MORE THAN EIGHT YEARS, Amazon Legacy Press EXPERTS HAVE BEEN AT THE FOREFRONT OF THE PUBLISHING INDUSTRY,
             CREATING AN EXTENSIVE PORTFOLIO FILLED WITH HUNDREDS OF BESTSELLERS. OUR CONSISTENT DEDICATION TO QUALITY HAS EARNED US AN
             OUTSTANDING REPUTATION IN THE LITERARY WORLD. WHETHER YOU NEED WRITING, PUBLISHING, OR MARKETING SUPPORT, AMAZON CLASSIC
             PUBLISHERS EXPERTS ARE YOUR ALL-IN-ONE PARTNER FOR ACHIEVING LITERARY EXCELLENCE.

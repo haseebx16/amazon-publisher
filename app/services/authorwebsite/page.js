@@ -50,7 +50,7 @@ export default function BookWritingServices() {
                 A Creative Hub for Your Craft
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Your online presence is more than just a website—it's a dynamic hub for your creative world. At Amazon Classic Publishers Experts, we go beyond mere website creation to build a captivating digital space that engages your readers. Our team of skilled designers and developers works closely with you to create a visually stunning and intuitive website that authentically represents your unique author brand.
+                Your online presence is more than just a website—it's a dynamic hub for your creative world. At Amazon Legacy Press Experts, we go beyond mere website creation to build a captivating digital space that engages your readers. Our team of skilled designers and developers works closely with you to create a visually stunning and intuitive website that authentically represents your unique author brand.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Effortless Author Marketing Solutions               </h2>
@@ -139,7 +139,7 @@ and leave a lasting impact.
                   Collaborative Creation Process .
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Elevate your storytelling with the Book Illustration services from Amazon Classic Publishers Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
+                  Elevate your storytelling with the Book Illustration services from Amazon Legacy Press Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
                   </p>
                 </div>
 

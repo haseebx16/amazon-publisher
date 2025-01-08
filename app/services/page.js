@@ -99,7 +99,7 @@ export default function page() {
                     Landscape with Proven Marketing Excellence.
                   </h2>
                   <p className="text-gray-700 mb-8">
-                    Amazon Classic Publishers Experts specializes in book marketing and is a reliable partner for authors seeking both writing and promotional support. Our all-encompassing services cover editing, proofreading, cover design, reviews, and platform building.
+                    Amazon Legacy Press Experts specializes in book marketing and is a reliable partner for authors seeking both writing and promotional support. Our all-encompassing services cover editing, proofreading, cover design, reviews, and platform building.
                   </p>
                 </div>
 

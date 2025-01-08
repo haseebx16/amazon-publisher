@@ -49,13 +49,13 @@ export default function BookWritingServices() {
                 Tailored Strategies for Your Unique Marketing Goals
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                In the ever-evolving landscape of book marketing, a one-size-fits-all approach simply doesn’t suffice. At Amazon Classic Publishers Experts, we reject generic strategies in favour of crafting personalized marketing plans that capture the unique essence of your book. By pinpointing the most effective promotion channels—whether through a dynamic online presence, targeted advertising, or creative promotional events—we customize our approach to ensure your book stands out in a competitive market.
+                In the ever-evolving landscape of book marketing, a one-size-fits-all approach simply doesn’t suffice. At Amazon Legacy Press Experts, we reject generic strategies in favour of crafting personalized marketing plans that capture the unique essence of your book. By pinpointing the most effective promotion channels—whether through a dynamic online presence, targeted advertising, or creative promotional events—we customize our approach to ensure your book stands out in a competitive market.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Impactful Targeted Campaigns
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Discover the power of precision with Amazon Classic Publishers Experts. Our focused marketing strategies are expertly designed to deliver impactful results. Effectively engage your target audience and see tangible outcomes through our results-driven book marketing campaigns. Let your book stand out in the most relevant and influential spaces.
+                Discover the power of precision with Amazon Legacy Press Experts. Our focused marketing strategies are expertly designed to deliver impactful results. Effectively engage your target audience and see tangible outcomes through our results-driven book marketing campaigns. Let your book stand out in the most relevant and influential spaces.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Our Author-Focused Marketing Philosophy
@@ -138,7 +138,7 @@ export default function BookWritingServices() {
                   Strategies for Global Distribution .
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  At Amazon Classic Publishers Experts, our book marketing services extend beyond borders, aiming to elevate your book to international prominence. By leveraging Amazon's extensive global network and partnering with international retailers, we ensure your literary work reaches readers worldwide. Expand your readership on a global scale and let your story resonate across various cultures with our meticulously crafted global distribution strategies.
+                  At Amazon Legacy Press Experts, our book marketing services extend beyond borders, aiming to elevate your book to international prominence. By leveraging Amazon's extensive global network and partnering with international retailers, we ensure your literary work reaches readers worldwide. Expand your readership on a global scale and let your story resonate across various cultures with our meticulously crafted global distribution strategies.
                   </p>
                 </div>
 

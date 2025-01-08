@@ -72,7 +72,7 @@ export default function page() {
               {/* Text Content */}
               <div className="text-white mt-16 md:mt-0 max-w-2xl">
                 <h2 className="font-oswald text-lg md:text-xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
-                  WELCOME TO Amazon Classic Publishers EXPERTS
+                  WELCOME TO Amazon Legacy Press EXPERTS
                 </h2>
                 <h1 className="font-oswald text-2xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
                 Are you an author ready to publish your book on Amazon, or a publisher aiming to refine your digital publishing strategy?
@@ -138,7 +138,7 @@ export default function page() {
                 Are you an author ready to launch your book on Amazon, or a publisher looking to enhance your digital publishing approach? Contact us for a free consultation, and let’s bring your literary visions to life.
                 </h2>
                 <h1 className="font-oswald text-gray-500 text-md text-center md:text-xl lg:text-xl mb-6 tracking-wide">
-                Dive into the realm of audiobook publishing and share your stories with a wider, enthusiastic audience. Discover the potential of audiobook creation and distribution with Amazon Classic Publishers Experts and expand your reach today.
+                Dive into the realm of audiobook publishing and share your stories with a wider, enthusiastic audience. Discover the potential of audiobook creation and distribution with Amazon Legacy Press Experts and expand your reach today.
                 </h1>
                 <p className="text-sm text-center text-gray-500 md:text-lg">Telephone: +1 713 678 0086</p>
                 <p className="text-sm text-center text-gray-500 md:text-lg">Email: info@amazonclassicpublishers.com</p>

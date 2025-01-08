@@ -60,7 +60,7 @@ export default function BookWritingServices() {
                 Defining Excellence
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Quality isn't merely an objective; it's our core principle. At Amazon Classic Publishers Experts, we stand out for our rigorous quality assurance. Our advanced printing facilities ensure each book meets top-tier standards for color accuracy, clarity, and durability. From the first page to the last, your readers will experience the superior quality that sets your book apart on every shelf.
+                Quality isn't merely an objective; it's our core principle. At Amazon Legacy Press Experts, we stand out for our rigorous quality assurance. Our advanced printing facilities ensure each book meets top-tier standards for color accuracy, clarity, and durability. From the first page to the last, your readers will experience the superior quality that sets your book apart on every shelf.
                 </p>
               </div>
 
@@ -138,7 +138,7 @@ and leave a lasting impact.
                   Collaborative Creation Process .
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Elevate your storytelling with the Book Illustration services from Amazon Classic Publishers Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
+                  Elevate your storytelling with the Book Illustration services from Amazon Legacy Press Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
                   </p>
                 </div>
 

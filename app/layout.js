@@ -19,7 +19,7 @@ const oswald = Oswald({
 });
 
 export const metadata = {
-  title: "Amazon Classic Publishers",
+  title: "Amazon Legacy Press",
   description: "Professional publishing services to help authors reach their full potential",
 };
 

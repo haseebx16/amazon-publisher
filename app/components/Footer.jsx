@@ -41,7 +41,7 @@ export default function Footer() {
               {exploreLinks.map((link) => (
                 <li key={link.name}>
                   <Link 
-                    href={link.href}
+                    href={`/services/${link.href}`}
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     {link.name}
@@ -105,9 +105,9 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-[1400px] mx-auto px-4 py-6">
           <div className="text-center space-y-4">
-            <p className="text-gray-400">Amazon Classic Publishers | &copy; Copyright 2024</p>
+            <p className="text-gray-400">Amazon Legacy Press | &copy; Copyright 2024</p>
             <p className="text-gray-500 text-sm max-w-4xl mx-auto">
-              <span className="font-semibold">Disclaimer:</span> Amazon Classic Publishers operates as a standalone entity, entirely separate from Amazon.com, offering support to independent authors in their publishing and marketing endeavors. We adhere to ethical business standards and comply with all applicable U.S. Federal and State regulations.
+              <span className="font-semibold">Disclaimer:</span> Amazon Legacy Press operates as a standalone entity, entirely separate from Amazon.com, offering support to independent authors in their publishing and marketing endeavors. We adhere to ethical business standards and comply with all applicable U.S. Federal and State regulations.
             </p>
           </div>
         </div>

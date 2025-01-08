@@ -141,7 +141,7 @@ and leave a lasting impact.
 Authors' Path to Success.
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Discover the inspiring stories of authors who have achieved success with Amazon Classic Publishers Experts. This section showcases the real-life journeys of writers who turned their dreams into published triumphs with our support. Dive into the challenges they overcame, the strategies they used, and the successes that defined their publishing adventures. Your own story could become a beacon of inspiration for other authors striving for literary excellence.
+                  Discover the inspiring stories of authors who have achieved success with Amazon Legacy Press Experts. This section showcases the real-life journeys of writers who turned their dreams into published triumphs with our support. Dive into the challenges they overcame, the strategies they used, and the successes that defined their publishing adventures. Your own story could become a beacon of inspiration for other authors striving for literary excellence.
                   </p>
                 </div>
 

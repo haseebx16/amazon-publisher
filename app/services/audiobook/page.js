@@ -33,7 +33,7 @@ export default function BookWritingServices() {
 
                 </h2>
                 <p className="text-sm max-w-6xl  text-center text-gray-600 md:text-lg mb-8">
-                It Deserves Amazon Classic Publishers Experts' Audiobook Service.
+                It Deserves Amazon Legacy Press Experts' Audiobook Service.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function BookWritingServices() {
                 Crafting Stories with Artful Narration
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Creating an impactful audiobook goes beyond a great storyline; it’s about the artistry of narration. At Amazon Classic Publishers Experts, we excel in transforming written words into vivid auditory experiences. Our meticulous process involves expert casting, skillful script adaptation, and precise sound engineering. Our narrators bring characters to life, convey emotions with depth, and transport listeners into your story's universe. With our expertise in immersive narration, your audiobook will not only be listened to but will become a cherished, unforgettable experience.                </p>
+                Creating an impactful audiobook goes beyond a great storyline; it’s about the artistry of narration. At Amazon Legacy Press Experts, we excel in transforming written words into vivid auditory experiences. Our meticulous process involves expert casting, skillful script adaptation, and precise sound engineering. Our narrators bring characters to life, convey emotions with depth, and transport listeners into your story's universe. With our expertise in immersive narration, your audiobook will not only be listened to but will become a cherished, unforgettable experience.                </p>
                 
               </div>
 
@@ -128,7 +128,7 @@ and leave a lasting impact.
                   Collaborative Creation Process .
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Elevate your storytelling with the Book Illustration services from Amazon Classic Publishers Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
+                  Elevate your storytelling with the Book Illustration services from Amazon Legacy Press Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
                   </p>
                 </div>
 

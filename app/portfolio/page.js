@@ -57,32 +57,32 @@ export default function page() {
     {
       id: 1,
       name: "JONATHAN HARRIS",
-      text: "Amazon Classic Publishers Experts turned my dream into reality. Their careful attention to detail and unwavering support throughout the publishing process made all the difference. I couldn't have asked for a better team to bring my book to life."
+      text: "Amazon Legacy Press Experts turned my dream into reality. Their careful attention to detail and unwavering support throughout the publishing process made all the difference. I couldn't have asked for a better team to bring my book to life."
     },
     {
       id: 2,
       name: "SOPHIA MARTINEZ",
-      text: "Working with Amazon Classic Publishers Experts was a game-changer for me. Their expertise and dedication to crafting a successful publishing strategy were instrumental in my book's success. I highly recommend their services to any author."
+      text: "Working with Amazon Legacy Press Experts was a game-changer for me. Their expertise and dedication to crafting a successful publishing strategy were instrumental in my book's success. I highly recommend their services to any author."
     },
     {
       id: 3,
       name: "DAVID THOMPSON",
-      text: "From the initial concept to the final product, Amazon Classic Publishers Experts provided exceptional guidance and support. Their professionalism and commitment to excellence ensured my book reached its full potential."
+      text: "From the initial concept to the final product, Amazon Legacy Press Experts provided exceptional guidance and support. Their professionalism and commitment to excellence ensured my book reached its full potential."
     },
     {
       id: 4,
       name: "EMMA WILSON",
-      text: "The team at Amazon Classic Publishers Experts demonstrated unparalleled expertise in bringing my manuscript to life. Their attention to detail and commitment to quality exceeded my expectations at every turn."
+      text: "The team at Amazon Legacy Press Experts demonstrated unparalleled expertise in bringing my manuscript to life. Their attention to detail and commitment to quality exceeded my expectations at every turn."
     },
     {
       id: 5,
       name: "MICHAEL CHEN",
-      text: "I'm thoroughly impressed with the professional service provided by Amazon Classic Publishers Experts. Their strategic approach to publishing and marketing has helped my book reach audiences I never thought possible."
+      text: "I'm thoroughly impressed with the professional service provided by Amazon Legacy Press Experts. Their strategic approach to publishing and marketing has helped my book reach audiences I never thought possible."
     },
     {
       id: 6,
       name: "SARAH ANDERSON",
-      text: "Choosing Amazon Classic Publishers Experts was the best decision for my publishing journey. Their comprehensive approach and dedication to author success truly sets them apart in the industry."
+      text: "Choosing Amazon Legacy Press Experts was the best decision for my publishing journey. Their comprehensive approach and dedication to author success truly sets them apart in the industry."
     }
   ];
 
@@ -135,7 +135,7 @@ export default function page() {
               {/* Text Content */}
               <div className="text-white max-w-2xl">
                 <h2 className="font-oswald mt-20 text-lg md:text-xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
-                Welcome to Amazon Classic Publishers
+                Welcome to Amazon Legacy Press
                 </h2>
                 <h1 className="font-oswald text-2xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
                 IT'S TIME TO BRING THAT MANUSCRIPT TO LIFE. COMPLETE PUBLISHING SOLUTIONS

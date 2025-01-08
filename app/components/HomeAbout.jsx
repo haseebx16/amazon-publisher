@@ -69,7 +69,7 @@ export default function HomeAbout() {
               {activeTab === 'mission' && (
                 <div>
                   <p className="text-gray-700 leading-relaxed">
-                    At Amazon Classic Publishers, we are dedicated to bridging the gap between authors 
+                    At Amazon Legacy Press, we are dedicated to bridging the gap between authors 
                     and their readers. Our mission is to empower writers to fully embrace their craft while we 
                     manage the complexities of publishing, promotion, and distribution. Trust us to deliver 
                     excellence at every step!

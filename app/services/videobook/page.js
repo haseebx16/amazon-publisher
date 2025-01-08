@@ -54,7 +54,7 @@ export default function BookWritingServices() {
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Mastering the Craft of Video Book Trailers                </h2>
                 <p className="text-gray-700 leading-relaxed">
-                At Amazon Classic Publishers Experts, we specialize in creating visually stunning and emotionally resonant Video Book Trailers. Our team delves deeply into the core of your story, identifying key elements to captivate your audience. From initial concept to scriptwriting, we expertly employ cinematic techniques to craft a trailer that authentically represents and enhances your book’s narrative.
+                At Amazon Legacy Press Experts, we specialize in creating visually stunning and emotionally resonant Video Book Trailers. Our team delves deeply into the core of your story, identifying key elements to captivate your audience. From initial concept to scriptwriting, we expertly employ cinematic techniques to craft a trailer that authentically represents and enhances your book’s narrative.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Instantly Captivating Your Audience
@@ -138,7 +138,7 @@ and leave a lasting impact.
                   Amplify Your Book's Reach with Strategic Promotion.
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  At Amazon Classic Publishers Experts, we view promotion as a creative craft, and our Video Book Trailers are essential elements in this artistry. More than just striking visuals, these trailers are strategically designed to boost your book’s visibility across digital channels. Leveraging social media, video platforms, and targeted marketing campaigns, we generate excitement and anticipation around your book. Discover how our Video Book Trailer service can elevate your promotional efforts and transform your book’s impact.
+                  At Amazon Legacy Press Experts, we view promotion as a creative craft, and our Video Book Trailers are essential elements in this artistry. More than just striking visuals, these trailers are strategically designed to boost your book’s visibility across digital channels. Leveraging social media, video platforms, and targeted marketing campaigns, we generate excitement and anticipation around your book. Discover how our Video Book Trailer service can elevate your promotional efforts and transform your book’s impact.
                   </p>
                 </div>
 

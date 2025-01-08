@@ -49,13 +49,13 @@ export default function BookWritingServices() {
                 Impactful Visuals That Resonate
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                In the ever-evolving landscape of book marketing, a one-size-fits-all approach simply doesn’t suffice. At Amazon Classic Publishers Experts, we reject generic strategies in favour of crafting personalized marketing plans that capture the unique essence of your book. By pinpointing the most effective promotion channels—whether through a dynamic online presence, targeted advertising, or creative promotional events—we customize our approach to ensure your book stands out in a competitive market.
+                In the ever-evolving landscape of book marketing, a one-size-fits-all approach simply doesn’t suffice. At Amazon Legacy Press Experts, we reject generic strategies in favour of crafting personalized marketing plans that capture the unique essence of your book. By pinpointing the most effective promotion channels—whether through a dynamic online presence, targeted advertising, or creative promotional events—we customize our approach to ensure your book stands out in a competitive market.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Illustration Services for Children's Books
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Discover the power of precision with Amazon Classic Publishers Experts. Our focused marketing strategies are expertly designed to deliver impactful results. Effectively engage your target audience and see tangible outcomes through our results-driven book marketing campaigns. Let your book stand out in the most relevant and influential spaces.
+                Discover the power of precision with Amazon Legacy Press Experts. Our focused marketing strategies are expertly designed to deliver impactful results. Effectively engage your target audience and see tangible outcomes through our results-driven book marketing campaigns. Let your book stand out in the most relevant and influential spaces.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 Comic Book Illustration Services
@@ -139,7 +139,7 @@ SCALING UP FOR GREATER IMPACT
                   Collaborative Creation Process .
                   </h2>
                   <p className="text-gray-700 text-2xl mb-8">
-                  Elevate your storytelling with the Book Illustration services from Amazon Classic Publishers Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
+                  Elevate your storytelling with the Book Illustration services from Amazon Legacy Press Experts. Our skilled artists and illustrators are passionate about turning your words into visually compelling narratives. Whether you are crafting a children's book, writing fiction, or presenting non-fiction, our team is dedicated to enhancing your story with immersive illustrations, enriching the reader's journey and making your tales come alive.
                   </p>
                 </div>
 

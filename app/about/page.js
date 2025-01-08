@@ -72,12 +72,12 @@ export default function page() {
               {/* Text Content */}
               <div className="text-white mt-16 md:mt-0 max-w-2xl">
                 <h2 className="font-oswald text-lg md:text-xl mb-4 text-orange-500 uppercase font-medium tracking-wider">
-                  WELCOME TO Amazon Classic Publishers EXPERTS
+                  WELCOME TO Amazon Legacy Press EXPERTS
                 </h2>
                 <h1 className="font-oswald text-2xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
                   NAVIGATING DIGITAL PUBLISHING CHALLENGES WITH A RELIABLE ALLY
                 </h1>
-                <p className="text-sm md:text-lg mb-8">At Amazon Classic Publishers Experts, we stand by you every step of the way, offering an extensive range of services to bring your publishing goals to life. Founded on a powerful yet simple mission, we aim to empower both authors and publishers as they navigate the ever-evolving world of publishing.</p>
+                <p className="text-sm md:text-lg mb-8">At Amazon Legacy Press Experts, we stand by you every step of the way, offering an extensive range of services to bring your publishing goals to life. Founded on a powerful yet simple mission, we aim to empower both authors and publishers as they navigate the ever-evolving world of publishing.</p>
                 <button className="btn-primary text-lg uppercase tracking-wider">
                   DISCOVER MORE
                 </button>
@@ -154,7 +154,7 @@ export default function page() {
                     Landscape with Proven Marketing Excellence.
                   </h2>
                   <p className="text-gray-700 mb-8">
-                    Amazon Classic Publishers Experts specializes in book marketing and is a reliable partner for authors seeking both writing and promotional support. Our all-encompassing services cover editing, proofreading, cover design, reviews, and platform building.
+                    Amazon Legacy Press Experts specializes in book marketing and is a reliable partner for authors seeking both writing and promotional support. Our all-encompassing services cover editing, proofreading, cover design, reviews, and platform building.
                   </p>
                 </div>
 
