@@ -25,14 +25,13 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <nav className="max-w-[1400px] mx-auto px-2 py-4">
+      <nav className="max-w-[1400px] mx-auto px-2">
         <div className="flex items-center">
           {/* Logo - Left */}
           <div className="w-1/4">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <span className="text-3xl">Amazon</span>
-                <span className="text-black ml-1">classic publishers</span>
+                <img src='/amazon-orange.png' style={{ width: "200px", height: "150px" }}/>
               </span>
             </Link>
           </div>

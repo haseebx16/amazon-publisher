@@ -24,21 +24,14 @@ export default function Footer() {
   return (
     <footer className="bg-[#1e2124] text-white pt-48">
       {/* Main Footer */}
-      <div className="max-w-[1400px] mx-auto px-4 py-16">
+      <div className="max-w-[1400px] mx-auto px-4 py-4">
         <div className="grid md:grid-cols-4 gap-12">
           {/* Logo Section */}
           <div>
             <Link href="/" className="inline-block mb-6">
-              <h2 className="text-2xl font-oswald">
-                <span className="text-orange-500">AMAZON</span>
-                <br />
-                CLASSIC PUBLISHERS
-              </h2>
+              <img src='/footer-logo.png' style={{ width: "200px", height: "200px" }}/>
             </Link>
-            <p className="text-gray-400">
-              Your project trip begins with a complimentary quote – the
-              initial step in turning your vision into reality.
-            </p>
+            
           </div>
 
           {/* Explore Section */}
