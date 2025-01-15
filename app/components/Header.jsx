@@ -31,7 +31,7 @@ export default function Header() {
           <div className="w-1/4">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <img src='/header.png' style={{ width: "200px", height: "200px" }}/>
+                <img src='/header.png' style={{ width: "100px", height: "100px" }}/>
               </span>
             </Link>
           </div>
