@@ -31,7 +31,7 @@ export default function Header() {
           <div className="w-1/4">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <img src='/amazon-01.png' style={{ width: "200px", height: "200px" }}/>
+                <img src='/header.png' style={{ width: "200px", height: "200px" }}/>
               </span>
             </Link>
           </div>
@@ -89,7 +89,7 @@ export default function Header() {
           {/* Phone Number - Right */}
           <div className="hidden md:flex w-1/4 justify-end">
             <a href="tel:+17136780086" className="font-oswald text-orange-500 font-bold whitespace-nowrap">
-              +1 713 678 0086
+              support@amazonlegacypress.com
             </a>
           </div>
 
