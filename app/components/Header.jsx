@@ -28,10 +28,10 @@ export default function Header() {
       <nav className="max-w-[1400px] mx-auto px-2">
         <div className="flex items-center">
           {/* Logo - Left */}
-          <div className="w-1/4 py-4">
+          <div className="w-1/4 p-6">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <img src='/header.png' style={{ width: "200px", height: "100px" }}/>
+                <img src='/header.png' style={{ width: "200px", height: "60px" }}/>
               </span>
             </Link>
           </div>

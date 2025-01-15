@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Logo Section */}
           <div>
             <Link href="/" className="inline-block mb-6">
-              <img src='/footer-logo.png' style={{ width: "200px", height: "200px" }}/>
+              <img src='/footer.png' style={{ width: "200px", height: "60px" }}/>
             </Link>
             
           </div>
