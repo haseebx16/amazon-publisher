@@ -22,7 +22,7 @@ export default function QuoteBar() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Link 
-                href="#"
+                href="/contact"
                 className="inline-block bg-black text-white px-10 py-4 font-oswald text-lg uppercase tracking-wide hover:bg-gray-900 transition-colors rounded"
               >
                 REQUEST A QUOTE
