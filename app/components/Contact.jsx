@@ -1,26 +1,61 @@
 'use client';
 import { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-  };
+  const [error, setError] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { fullName, email, phone, message } = formData;
+
+    // Validate required fields
+    if (!fullName || !email || !phone || !message) {
+      setError('All fields are required.');
+      return;
+    }
+
+    // Reset error state
+    setError('');
+
+    // Send email using EmailJS
+    emailjs
+      .send(
+        'service_r0ex0cl', // Replace with your service ID
+        'template_4vtfjk5', // Replace with your template ID
+        {
+          to_email: 'support@amazonlegacypress.com',
+          from_name: fullName,
+          from_email: email,
+          phone,
+          message,
+        },
+        'TihDoLxcsdR_sDnwT' // Replace with your EmailJS user ID
+      )
+      .then(() => {
+        alert('Your message has been sent successfully!');
+        setFormData({ fullName: '', email: '', phone: '', message: '' }); // Reset form fields
+      })
+      .catch((err) => {
+        setError('Failed to send your message. Please try again later.');
+        console.error('EmailJS Error:', err);
+      });
   };
 
   return (
@@ -30,10 +65,7 @@ export default function Contact() {
           REACH OUT TO US
         </h2>
 
-        <form 
-          onSubmit={handleSubmit}
-          className="max-w-2xl mx-auto space-y-6"
-        >
+        <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-6">
           <div>
             <input
               type="text"
@@ -81,6 +113,8 @@ export default function Contact() {
               required
             ></textarea>
           </div>
+
+          {error && <p className="text-red-500 text-sm italic">{error}</p>}
 
           <div className="text-center">
             <button
