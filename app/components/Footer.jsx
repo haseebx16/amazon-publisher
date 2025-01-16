@@ -72,28 +72,13 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-oswald mb-6">CONTACT</h3>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <FaMapMarkerAlt className="text-orange-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">
-                  15500 VOSS RD SUITE 586, Sugar Land, TX 77498, United States
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <FaPhone className="text-orange-500 flex-shrink-0" />
-                <Link 
-                  href="tel:+17136780086"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  +1 713 678 0086
-                </Link>
-              </li>
               <li className="flex items-center gap-3">
                 <FaEnvelope className="text-orange-500 flex-shrink-0" />
                 <Link 
-                  href="mailto:info@amazonclassicpublishers.com"
+                  href="mailto:support@amazonlegacypress.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  info@amazonclassicpublishers.com
+                  support@amazonlegacypress.com
                 </Link>
               </li>
             </ul>
