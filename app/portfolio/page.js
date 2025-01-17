@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 import HomeAbout from '../components/HomeAbout';
 import { FaChevronLeft, FaChevronRight, FaQuoteLeft } from 'react-icons/fa';
 import BookShowcase from '../components/BookShowcase';
+import emailjs from 'emailjs-com';
 import Portfolio from '../components/Portfolio';
 
 export default function page() {
@@ -21,31 +22,53 @@ export default function page() {
     message: ''
   });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      // Log form submission (replace with your actual form submission logic)
-      console.log('Form submitted:', formData);
-      
-      // Reset form after successful submission
-      setFormData({
-        fullName: '',
-        email: '',
-        phone: '',
-        message: ''
-      });
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    }
-  };
+  const [error, setError] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { fullName, email, phone, message } = formData;
+
+    // Validate required fields
+    if (!fullName || !email || !phone || !message) {
+      setError('All fields are required.');
+      return;
+    }
+
+    // Reset error state
+    setError('');
+
+    // Send email using EmailJS
+    emailjs
+      .send(
+        'service_r0ex0cl', // Replace with your service ID
+        'template_4vtfjk5', // Replace with your template ID
+        {
+          to_email: 'support@amazonlegacypress.com',
+          from_name: fullName,
+          from_email: email,
+          phone,
+          message,
+        },
+        'TihDoLxcsdR_sDnwT' // Replace with your EmailJS user ID
+      )
+      .then(() => {
+        alert('Your message has been sent successfully!');
+        setFormData({ fullName: '', email: '', phone: '', message: '' }); // Reset form fields
+      })
+      .catch((err) => {
+        setError('Failed to send your message. Please try again later.');
+        console.error('EmailJS Error:', err);
+      });
+    }
 
   const services = [
     'Book Publishing Services',
@@ -152,6 +175,7 @@ export default function page() {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <input
                     type="text"
+                    name="fullName"
                     placeholder="Full Name"
                     className="form-input"
                     value={formData.fullName}
@@ -159,6 +183,7 @@ export default function page() {
                   />
                   <input
                     type="email"
+                    name="email"
                     placeholder="Your Email"
                     className="form-input"
                     value={formData.email}
@@ -166,12 +191,14 @@ export default function page() {
                   />
                   <input
                     type="tel"
+                    name="phone"
                     placeholder="Phone Number"
                     className="form-input"
                     value={formData.phone}
                     onChange={handleChange}
                   />
                   <textarea
+                    name="message"
                     placeholder="Message"
                     rows="4"
                     className="form-input"

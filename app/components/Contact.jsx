@@ -115,7 +115,7 @@ export default function Contact() {
           </div>
 
           {error && <p className="text-red-500 text-sm italic">{error}</p>}
-
+          <p className='text-center'>NOTE: Please be patient after pressing the Send Message button</p>
           <div className="text-center">
             <button
               type="submit"
