@@ -104,7 +104,7 @@ and leave a lasting impact.
               </div>
               <div className="lg:w-1/4 flex justify-center">
                 <a 
-                  href="#contact"
+                  href="/contact"
                   className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition-colors duration-300 text-center whitespace-nowrap"
                 >
                   REQUEST A QUOTE

@@ -88,7 +88,7 @@ export default function Header() {
 
           {/* Phone Number - Right */}
           <div className="hidden md:flex w-1/4 justify-end">
-            <a href="tel:+17136780086" className="font-oswald text-orange-500 font-bold whitespace-nowrap">
+            <a className="font-oswald text-orange-500 font-bold whitespace-nowrap">
               support@amazonlegacypress.com
             </a>
           </div>
