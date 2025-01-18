@@ -43,7 +43,7 @@ export default function BookShowcase() {
             </div>
 
             <div>
-              <h3 className="text-3xl font-oswald font-bold mb-6">Dare to Dream Big!</h3>
+              <h3 className="text-3xl font-oswald text-black font-bold mb-6">Dare to Dream Big!</h3>
               <p className="text-gray-700 mb-8">
                 Unlock the full potential of your book by partnering with us. Our agency 
                 is equipped with a team of seasoned professionals who specialize in 
@@ -54,7 +54,7 @@ export default function BookShowcase() {
             </div>
 
             <div>
-              <h3 className="text-3xl font-oswald italic mb-6">Turning Your Dream into a Published Reality</h3>
+              <h3 className="text-3xl font-oswald text-black italic mb-6">Turning Your Dream into a Published Reality</h3>
               <ul className="space-y-4">
                 {services.map((service, index) => (
                   <li key={index} className="flex items-center space-x-3">
@@ -86,7 +86,7 @@ export default function BookShowcase() {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Column */}
           <div>
-            <h2 className="text-4xl font-oswald mb-8">
+            <h2 className="text-4xl text-black font-oswald mb-8">
               Make Your Book Shine in Bookstores, Not Fade Away on a Shelf.
             </h2>
             <p className="text-gray-700 mb-8">
@@ -105,15 +105,15 @@ export default function BookShowcase() {
 
           {/* Right Column */}
           <div>
-            <h3 className="text-3xl font-oswald mb-6">Streamline Your Journey to Publishing Success.</h3>
-            <h3 className="text-3xl font-oswald mb-6">Publish, Print, and Prosper.</h3>
+            <h3 className="text-3xl text-black font-oswald mb-6">Streamline Your Journey to Publishing Success.</h3>
+            <h3 className="text-3xl text-black font-oswald mb-6">Publish, Print, and Prosper.</h3>
             <p className="text-gray-700 mb-8">
               We offer premium services, including Author Central, Book Promotion, and 
               Platform Building. Our goal is to elevate authors and their books by promoting 
               them across various channels, including social media, to boost visibility and 
               capture the attention your work deserves.
             </p>
-            <h3 className="text-3xl font-oswald mb-6">
+            <h3 className="text-3xl text-black font-oswald mb-6">
               Ensure Your Book Stands Out in Bookstores, Not Forgotten on a Shelf.
             </h3>
             <p className="text-gray-700">

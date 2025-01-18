@@ -88,7 +88,7 @@ export default function Hero() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gray-800/80 p-8 rounded-lg w-full max-w-md">
+          <div className="bg-gray-800/80 hidden md:block p-8 rounded-lg w-full max-w-md">
             <h3 className="font-oswald text-2xl text-white font-bold mb-6 text-center">Let's Get Started</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <input

@@ -3,41 +3,16 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-
-function NextArrow(props) {
-  const { onClick } = props;
-  return (
-    <button
-      onClick={onClick}
-      className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 p-3 rounded-full shadow-lg hover:bg-white transition-all duration-200"
-    >
-      <FaChevronRight className="w-6 h-6 text-gray-800" />
-    </button>
-  );
-}
-
-function PrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <button
-      onClick={onClick}
-      className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 p-3 rounded-full shadow-lg hover:bg-white transition-all duration-200"
-    >
-      <FaChevronLeft className="w-6 h-6 text-gray-800" />
-    </button>
-  );
-}
 
 export default function Portfolio() {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    autoplaySpeed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +47,7 @@ export default function Portfolio() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-[1400px] mx-auto px-12">
-        <h2 className="text-5xl font-oswald text-center mb-12 text-orange-500">
+        <h2 className="text-5xl font-oswald text-center md:mb-12 text-orange-500">
           OUR PORTFOLIO<span className="text-black">.</span>
         </h2>
         
@@ -80,7 +55,7 @@ export default function Portfolio() {
           <Slider {...settings}>
             {books.map((book) => (
               <div key={book.id} className="px-4">
-                <div className="relative h-[500px] w-full group">
+                <div className="relative md:h-[500px] h-[300px]  w-full group">
                   <Image
                     src={book.src}
                     alt={book.title}

@@ -35,8 +35,8 @@ export default function Footer() {
           </div>
 
           {/* Explore Section */}
-          <div>
-            <h3 className="text-xl font-oswald mb-6">EXPLORE</h3>
+          <div className='hidden md:block'>
+            <h3 className="text-xl  font-oswald mb-6">EXPLORE</h3>
             <ul className="space-y-3">
               {exploreLinks.map((link) => (
                 <li key={link.name}>

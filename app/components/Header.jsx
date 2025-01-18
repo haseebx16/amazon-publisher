@@ -31,7 +31,7 @@ export default function Header() {
           <div className="w-1/4 p-6">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <img src='/header.png' style={{ width: "200px", height: "60px" }}/>
+                <img src='/header.png' style={{ width: "300px", height: "60px" }}/>
               </span>
             </Link>
           </div>
@@ -94,7 +94,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden ml-auto">
+          <div className="md:hidden text-black ml-auto">
             <button 
               className="p-2"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -152,8 +152,8 @@ export default function Header() {
             <Link href="/contact" className="nav-link">
               Contact Us
             </Link>
-            <a href="tel:+17136780086" className="font-oswald text-orange-500 font-bold">
-              +1 713 678 0086
+            <a className="font-oswald text-orange-500 font-bold">
+              support@amazonlegacypress.com
             </a>
           </div>
         </div>
