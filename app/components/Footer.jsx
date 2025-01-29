@@ -81,6 +81,12 @@ export default function Footer() {
                   support@amazonlegacypress.com
                 </Link>
               </li>
+                <Link 
+                  href="mailto:support@amazonlegacypress.com"
+                  className="text-gray-400 mt-4 hover:text-white transition-colors"
+                >
+                  <span className='text-orange-500'>&#x2022;&nbsp;</span>(512) 387-2951
+                </Link>
             </ul>
           </div>
         </div>
