@@ -17,7 +17,7 @@ export default function Footer() {
     { name: 'Contact Us', href: 'contact' },
     { name: 'Portfolio', href: 'portfolio' },
     { name: 'Testimonials', href: 'testimonials' },
-    { name: 'Privacy Policy', href: 'privacypolicy' },
+    { name: 'Privacy Policy', href: '/privacypolicy' },
   ];
 
   return (
