@@ -82,9 +82,9 @@ export default function Hero() {
             <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               YOUR PATHWAY TO TURNING LITERARY DREAMS INTO BESTSELLING SUCCESS
             </h1>
-            <button className="btn-primary text-lg uppercase tracking-wider">
+            <a href='/about'><button className="btn-primary text-lg uppercase tracking-wider">
               DISCOVER MORE
-            </button>
+            </button></a>
           </div>
 
           {/* Contact Form */}
@@ -126,6 +126,7 @@ export default function Hero() {
                 SEND MESSAGE
               </button>
             </form>
+            <p className='text-center mt-4 text-white'><span className='text-orange-500'>Disclaimer: </span> By providing a telephone number and submitting the form you are consenting to be contacted by SMS text message. Message and data rates may apply. Reply STOP to opt out of further messaging. Visit Our <a href='/privacypolicy' className='text-orange-500 underline'>Privacy Policy Page</a> for further knowledge.</p>
           </div>
         </div>
       </div>

@@ -149,7 +149,9 @@ export default function page() {
                     SEND MESSAGE
                   </button>
                 </form>
+            <p className='text-center mt-4 text-white'><span className='text-orange-500'>Disclaimer: </span> By providing a telephone number and submitting the form you are consenting to be contacted by SMS text message. Message and data rates may apply. Reply STOP to opt out of further messaging. Visit Our <a href='/privacypolicy' className='text-orange-500 underline'>Privacy Policy Page</a> for further knowledge.</p>
               </div>
+
             </div>
           </div>
         </section>

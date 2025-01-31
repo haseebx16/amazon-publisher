@@ -31,7 +31,7 @@ export default function Header() {
           <div className="w-1/4 p-6">
             <Link href="/" className="font-oswald text-2xl font-bold text-orange-500">
               <span className="flex items-center">
-                <img src='/header.png' style={{ width: "300px", height: "60px" }}/>
+                <img src='/header.png' style={{ width: "180px", height: "60px" }}/>
               </span>
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function Header() {
 
           {/* Phone Number - Right */}
           <div className="hidden md:flex w-1/4 justify-end">
-            <a className="font-oswald text-orange-500 font-bold whitespace-nowrap">
+            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-orange-500 font-bold whitespace-nowrap">
               support@amazonlegacypress.com
             </a>
           </div>
@@ -152,7 +152,7 @@ export default function Header() {
             <Link href="/contact" className="nav-link">
               Contact Us
             </Link>
-            <a className="font-oswald text-orange-500 font-bold">
+            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-orange-500 font-bold">
               support@amazonlegacypress.com
             </a>
           </div>
