@@ -26,7 +26,7 @@ export default function BookWritingServices() {
                 Amazon Legacy Press
                 </h2>
                 <p className="text-sm text-center text-gray-600 md:text-lg mb-8">
-                Privacy Policy: Phone Number Collection & Use
+                Privacy Policy
                 </p>
               </div>
             </div>
@@ -37,6 +37,45 @@ export default function BookWritingServices() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
+              <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Your Privacy, Our Commitment
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                Amazon Legacy Press takes your privacy seriously. We are dedicated to protecting your personal data and using it responsibly. Our Consumer Data Policy ensures transparency and fosters trust, so you can engage with our services confidently.
+                </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Data Collection
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                We collect only the information necessary to deliver our services, such as your name, contact details, and project-related information.
+                </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Data Usage
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                Your data is used exclusively to provide services, communicate updates, and enhance your experience. We do not share your information without your consent.
+                </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Data Security
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                Our systems are protected with industry-standard security measures. Regular audits ensure your information is safeguarded against unauthorized access.
+                </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Your Rights
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                You have the right to access, update, or request deletion of your data. Contact us to exercise your rights or address any concerns.
+                </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Transparency
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                We believe in open communication. Updates to this policy will be shared promptly, and we encourage you to review them periodically.
+                </p>
+                <h2 className="text-5xl font-oswald text-gray-800 mb-6">
+                    Privacy Policy: Collection Of Numbers And Use
+                </h2>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
                 1. Collection of Phone Numbers
                 </h2>
