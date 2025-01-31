@@ -26,7 +26,7 @@ export default function BookWritingServices() {
                 Amazon Legacy Press
                 </h2>
                 <p className="text-sm text-center text-gray-600 md:text-lg mb-8">
-                Privacy Policy
+                Privacy Policy: Phone Number Collection & Use
                 </p>
               </div>
             </div>
@@ -38,41 +38,51 @@ export default function BookWritingServices() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Your Privacy, Our Commitment
+                1. Collection of Phone Numbers
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Amazon Legacy Press takes your privacy seriously. We are dedicated to protecting your personal data and using it responsibly. Our Consumer Data Policy ensures transparency and fosters trust, so you can engage with our services confidently.
+                We collect phone numbers solely for the purposes of contact. This information is provided voluntarily by you with explicit consent at the time of collection.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Data Collection
+                2. Consent
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                We collect only the information necessary to deliver our services, such as your name, contact details, and project-related information.
+                By providing your phone number, you consent to its use strictly for the purposes stated above. Consent is obtained through the Contact Form, and you may withdraw consent at any time by contacting us at <span className='text-orange-500'>support@amazonlegacypress.com</span>.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Data Usage
+                3. Third-Party Sharing
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Your data is used exclusively to provide services, communicate updates, and enhance your experience. We do not share your information without your consent.
+                We do not share, sell, or lease your phone number to third-party providers, marketers, or external organizations. Your phone number and associated consent details are retained securely and used exclusively for the purposes outlined in this policy.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Data Security
+                Exceptions:
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                Our systems are protected with industry-standard security measures. Regular audits ensure your information is safeguarded against unauthorized access.
+                If required by law (e.g., legal subpoena, regulatory compliance).
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                For service providers directly involved in delivering the services you requested (e.g., SMS gateway providers). These partners are contractually prohibited from using your data for unrelated purposes
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Your Rights
+                4. Data Security
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                You have the right to access, update, or request deletion of your data. Contact us to exercise your rights or address any concerns.
+                Phone numbers are stored using industry-standard encryption and access controls. We retain this information only for as long as necessary to fulfill the stated purpose or as required by law.
                 </p>
                 <h2 className="text-4xl font-oswald text-gray-800 mb-6">
-                Transparency
+                5. Your Rights
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                We believe in open communication. Updates to this policy will be shared promptly, and we encourage you to review them periodically.
+                You may request access to, correction of, or deletion of your phone number from our systems by contacting <span className='text-orange-500'>support@amazonlegacypress.com</span>.
                 </p>
+                <h2 className="text-4xl font-oswald text-gray-800 mb-6">
+                Example For Direct Use
+                </h2>
+                <p className="text-gray-700 leading-relaxed">
+                "We collect phone numbers solely to contact. Your phone number and consent will never be shared with third-party providers, advertisers, or external organizations unless explicitly required by law or to fulfill services you’ve requested (e.g., SMS delivery). All data is secured and retained only for as long as necessary. You may withdraw consent or request deletion at any time by contacting support@amazonlegacypress.com."
+                </p>
+                
               </div>
 
             </div>
