@@ -18,7 +18,6 @@ export default function Footer() {
     { name: 'Portfolio', href: 'portfolio' },
     { name: 'Testimonials', href: 'testimonials' },
     { name: 'Privacy Policy', href: 'privacypolicy' },
-    { name: 'Terms & Conditions', href: '#' },
   ];
 
   return (

@@ -142,7 +142,7 @@ export default function page() {
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-black bg-opacity-80 z-10"></div>
             <Image
-              src="/testimonials.jpg"
+              src="/testimonials.jpeg"
               alt="Background"
               layout="fill"
               objectFit="cover"

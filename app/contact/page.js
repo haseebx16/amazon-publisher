@@ -61,7 +61,7 @@ export default function page() {
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('/testimonials.jpg')`,
+            backgroundImage: `url('/testimonials.jpeg')`,
           }}
         ></div>
       </div>
