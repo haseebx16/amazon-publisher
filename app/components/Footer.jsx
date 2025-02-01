@@ -89,6 +89,15 @@ export default function Footer() {
                   (512) 387-2951
                 </Link>
               </li>
+              <li className="flex items-center gap-3">
+                <FaMapMarkerAlt className="text-orange-500 flex-shrink-0" />
+                <Link 
+                  href=""
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  1401 Lavaca St Austin, TX 78701
+                </Link>
+              </li>
                 
             </ul>
           </div>
