@@ -115,7 +115,7 @@ export default function Contact() {
           </div>
 
           {error && <p className="text-red-500 text-sm italic">{error}</p>}
-          <p className='text-center'><span className='text-orange-500'>Disclaimer:</span> By providing a telephone number and submitting the form you are consenting to be contacted by SMS text message & confirming that you're over 18. Message and data rates may apply. Reply STOP to opt out of further messaging from us. Visit our <a href='/privacypolicy' className='text-orange-500 underline'>Privacy Policy Page</a> for further knowledge.</p>
+          <p className='text-center'><span className='text-orange-500'>Disclaimer:</span> By providing a telephone number and submitting the form you are consenting to be contacted by SMS text message. Message and data rates may apply. Reply STOP to opt out of further messaging from us. Visit our <a href='/privacypolicy' className='text-orange-500 underline'>Privacy Policy Page</a> for further knowledge.</p>
           <p className='text-center'><span className='text-orange-500'>Note:</span> Please be patient after pressing the Send Message button</p>
           <div className="text-center">
             <button
