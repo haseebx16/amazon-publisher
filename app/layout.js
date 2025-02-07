@@ -1,4 +1,7 @@
+"use client";
+
 import { Geist, Geist_Mono } from "next/font/google";
+import { useEffect } from "react";
 import { Oswald } from 'next/font/google';
 import "./globals.css";
 
@@ -18,12 +21,22 @@ const oswald = Oswald({
   display: 'swap',
 });
 
-export const metadata = {
-  title: "Amazon Legacy Press",
-  description: "Professional publishing services to help authors reach their full potential",
-};
-
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://embed.tawk.to/67a64544825083258e11df9f/1ijgnt5jj";
+    script.async = true;
+    script.charset = "UTF-8";
+    script.setAttribute("crossorigin", "*");
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <html lang="en">
       <body

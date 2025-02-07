@@ -2,13 +2,9 @@
 
 import Header from '../components/Header';
 import { useState } from 'react';
-import WhyChooseUs from '../components/WhyChooseUs';
-import Image from 'next/image';
-import { FaCheck } from 'react-icons/fa';
 import Contact from '../components/Contact';
 import QuoteBar from '../components/QuoteBar';
 import Footer from '../components/Footer';
-import HomeAbout from '../components/HomeAbout';
 
 export default function page() {
   const [formData, setFormData] = useState({

@@ -23,6 +23,14 @@ export default function Header() {
     'Video Book'
   ];
 
+  const openLiveChat = () => {
+    if (typeof Tawk_API !== "undefined") {
+      Tawk_API.toggle();
+    } else {
+      console.error("Tawk_API is not loaded yet.");
+    }
+  };
+
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="max-w-[1400px] mx-auto px-2">
@@ -87,10 +95,13 @@ export default function Header() {
           </div>
 
           {/* Phone Number - Right */}
-          <div className="hidden md:flex w-1/4 justify-end">
-            <a href='mailto:support@amazonlegacypress.com' className="font-oswald text-orange-500 font-bold whitespace-nowrap">
-              support@amazonlegacypress.com
+          <div className="hidden md:flex space-x-2 w-1/4 justify-end">
+            <a href='tel:(512)387-2951' className="font-oswald text-orange-500 rounded-md p-2 border-2 border-orange-500 font-bold whitespace-nowrap">
+            + (512) 387-2951
             </a>
+            <button onClick={openLiveChat} className="font-oswald text-white bg-orange-500 p-2 px-4 rounded-md hover:bg-customYellow duration-300 border-orange-500 whitespace-nowrap">
+                Live Chat
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
