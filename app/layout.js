@@ -3,6 +3,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { useEffect } from "react";
 import { Oswald } from 'next/font/google';
+import Script from 'next/script';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -22,7 +23,6 @@ const oswald = Oswald({
 });
 
 export default function RootLayout({ children }) {
-
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://embed.tawk.to/67a64544825083258e11df9f/1ijgnt5jj";
@@ -39,6 +39,20 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16851710462"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16851710462');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${oswald.className} antialiased`}
       >
