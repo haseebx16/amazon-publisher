@@ -56,7 +56,7 @@ export default function page() {
     
         try {
           await emailjs.send(
-            'service_l7zqqqy',
+            'service_a37lzzn',
             'template_k4ccrvv',
             {
               ...formData,
@@ -122,15 +122,12 @@ export default function page() {
         </section>
 
         {/* What Defines Us Section */}
-        <section className="py-20 bg-white">
+        <section className=" bg-white">
          
             <div className=" items-center">
               <div className="space-y-8">
               <div className="flex flex-col md:flex-row w-[90%] mx-auto py-12 gap-8">
-        <div className="md:w-[65%] w-full space-y-8">
-          <p className="text-gray-500 text-justify text-sm">
-            We're so glad that your book is ready to be designed and that you want to partner with us! After all the late nights you have poured into your manuscript, it deserves to look its best with professional design and layout. To help us quote on and then create the most suitable design for you, your book, and your readers, please answer the following questions.
-          </p>
+        <div className="md:w-[100%] w-full space-y-8">
           <form onSubmit={handleSubmit} className="space-y-6 bg-gray-100 p-6 rounded-lg shadow-lg">
             <div>
               <label className="block text-gray-700 font-semibold">Name <span className="text-red-500">(required)</span></label>
