@@ -2,20 +2,113 @@
 
 import Header from '../components/Header';
 import Image from 'next/image';
-import Contact from '../components/Contact';
+import emailjs from "emailjs-com";
 import QuoteBar from '../components/QuoteBar';
 import Footer from '../components/Footer';
-import Portfolio from '@/app/components/Portfolio';
 import HomeAbout from '@/app/components/HomeAbout';
-import { FaCheck } from 'react-icons/fa';
+import { useState } from 'react';
 
 export default function page() {
 
-    const services = [
-        'Book Publishing Services',
-        'Book Writing Services',
-        'Book Marketing Services'
-      ];
+      const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        goals: [],
+        otherGoal: '',
+        publishingType: '',
+        brandLink: '',
+        previousBooks: '',
+        targetAudience: '',
+        audienceAdjectives: '',
+        similarBooks: '',
+        hasCoverDesign: '',
+        coverDesigner: '',
+        needsCoverServices: '',
+        designPreferences: '',
+        favoriteCoverss: '',
+        coverText: '',
+        coverType: '',
+        imageCount: '',
+        graphicsSource: '',
+        inkColors: '',
+        pageSize: '',
+        bookLength: '',
+        needsEbook: '',
+        kdpInkPaper: '',
+        layoutReadyDate: '',
+        releaseDate: '',
+        budget: '',
+        manuscriptLink: ""
+      });
+
+      const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({
+          ...prev,
+          [name]: value
+        }));
+      };
+    
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+    
+        try {
+          await emailjs.send(
+            'service_a37lzzn',
+            'template_o7vss95',
+            {
+              ...formData,
+              goals: formData.goals.join(', ')
+            },
+            '5mCikQQutljFnzPc-'
+          );
+    
+          alert('Form submitted successfully!');
+          setFormData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            goals: [],
+            otherGoal: '',
+            publishingType: '',
+            brandLink: '',
+            previousBooks: '',
+            targetAudience: '',
+            audienceAdjectives: '',
+            similarBooks: '',
+            hasCoverDesign: '',
+            coverDesigner: '',
+            needsCoverServices: '',
+            designPreferences: '',
+            favoriteCoverss: '',
+            coverText: '',
+            coverType: '',
+            imageCount: '',
+            graphicsSource: '',
+            inkColors: '',
+            pageSize: '',
+            bookLength: '',
+            needsEbook: '',
+            kdpInkPaper: '',
+            layoutReadyDate: '',
+            releaseDate: '',
+            budget: '',
+            manuscriptLink: ""
+          });
+        } catch (error) {
+          console.error('Error sending email:', error);
+          alert('Failed to send email. Please try again.');
+        }
+      };
+
+      const handleFileUpload = (url) => {
+        setFormData(prev => ({
+          ...prev,
+          manuscriptLink: url
+        }));
+      };
 
   return (
     <>
