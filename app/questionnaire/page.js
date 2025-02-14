@@ -122,7 +122,7 @@ export default function page() {
         </section>
 
         {/* What Defines Us Section */}
-        <section className=" bg-white">
+        <section className="bg-white">
          
             <div className=" items-center">
               <div className="space-y-8">
