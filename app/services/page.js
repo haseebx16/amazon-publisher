@@ -109,7 +109,7 @@ export default function page() {
                     is equipped with a team of seasoned professionals who specialize in 
                     refining and enhancing your creative vision, no matter the genre. We 
                     excel in marketing strategies that connect your book with major literary 
-                    forums across the globe, significantly boosting its chances of success.
+                    forums across the globe significantly boosting its chances of success.
                   </p>
                 </div>
 
