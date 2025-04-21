@@ -26,7 +26,7 @@ const PricingPlans = () => {
         <div className={` flex md:flex-row  flex-col md:space-y-0  mt-6 space-y-2 md:space-x-2`}>
             {/* Pricing Plan: 01 */}
             <div className=' border-2 bg-black border-customYellow p-4 h-fit rounded-lg max-w-xs'>
-                <a href='tel:+(512) 387-2951'><h1 className='text-2xl bg-customYellow text-center text-black p-4'>Basic Package <br/><span className='px-4 p-1 mt-2 text-[18px] rounded-full cursor-pointer bg-black text-white'>Call For Price</span></h1></a>
+                <h1 className='text-2xl bg-customYellow text-center text-black p-4'>Basic Package <br/></h1>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;A dedicated team of specialist proofreaders, Editors, Designers and a Project Manager.</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Designing /integrating book cover design (As per requirement)</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Publishing the book in all 3 formats (eBook, paperback & Hardcover)                </p>
@@ -45,7 +45,7 @@ const PricingPlans = () => {
 
             {/* Pricing Plan: 02 */}
             <div className=' border-2 bg-black border-customYellow h-fit p-4 rounded-lg mt-8 max-w-xs'>
-                <a href='tel:+(512) 387-2951'><h1 className='text-2xl bg-customYellow text-center text-black p-4'>Standard Package <br/><span className='px-4 p-1 mt-2 text-[18px] rounded-full cursor-pointer bg-black text-white'>Call For Price</span></h1></a>
+               <h1 className='text-2xl bg-customYellow text-center text-black p-4'>Standard Package <br/></h1>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;A dedicated team of specialist proofreaders, Editors, Designers and a Project Manager.</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Designing /integrating book cover design (As per requirement)</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Publishing the book in all 3 formats (eBook, paperback & Hardcover)                </p>
@@ -64,7 +64,7 @@ const PricingPlans = () => {
 
             {/* Pricing Plan: 03 */}
             <div className=' border-2 bg-black border-customYellow h-fit p-4 rounded-lg mt-8 max-w-xs'>
-                <a href='tel:+(512) 387-2951'><h1 className='text-2xl bg-customYellow text-center text-black p-4'>Premium Package <br/><span className='px-4 p-1 mt-2 text-[18px] rounded-full cursor-pointer bg-black text-white'>Call For Price</span></h1></a>
+                <h1 className='text-2xl bg-customYellow text-center text-black p-4'>Premium Package <br/></h1>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;A dedicated team of specialist proofreaders, Editors, Designers and a Project Manager.</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Designing /integrating book cover design (As per requirement)</p>
                 <p className='mt-2'><span className='text-customYellow'>&#x2713;</span>&nbsp;Publishing the book in all 3 formats (eBook, paperback & Hardcover)                </p>

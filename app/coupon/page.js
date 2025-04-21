@@ -113,9 +113,7 @@ export default function page() {
                   <button onClick={openModal} className="btn-primary px-2 text-lg  tracking-wider">
                   &#8594; Start Project 
                   </button>
-                  <a href='tel:(512) 3872951'><button className="btn-primary bg-transparent text-white font-bold border-2 border-orange-500 px-2 text-lg  tracking-wider">
-                   Call Now 
-                  </button></a>
+                  
                 </div>
                 <ContactModal isOpen={isModalOpen} onClose={closeModal} />  
               </div>
@@ -230,9 +228,7 @@ export default function page() {
                   <button onClick={openModal} className="btn-primary px-2 text-lg  tracking-wider">
                   &#8594; Start Project 
                   </button>
-                  <a href='tel:(512) 3872951'><button className="btn-primary bg-transparent text-black hover:text-white font-bold border-2 border-orange-500 px-2 text-lg  tracking-wider">
-                   Call Now 
-                  </button></a>
+                  
                 </div>
               </div>
             </div>

@@ -139,7 +139,6 @@ export default function page() {
                 <h1 className="font-oswald text-gray-500 text-md text-center md:text-xl lg:text-xl mb-6 tracking-wide">
                 Dive into the realm of audiobook publishing and share your stories with a wider, enthusiastic audience. Discover the potential of audiobook creation and distribution with Amazon Legacy Press Experts and expand your reach today.
                 </h1>
-                <p className="text-sm text-center text-gray-500 md:text-lg">Telephone: (512) 387-2951</p>
                 <p className="text-sm text-center text-gray-500 md:text-lg">Email: support@amazonlegacypress.com</p>
                 <p className="text-sm text-center text-gray-500 md:text-lg pb-12">Our Address: 1401 Lavaca St Austin, TX 78701</p>
 
